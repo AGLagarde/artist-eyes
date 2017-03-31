@@ -4,7 +4,6 @@ var btn = document.querySelector('.burger');
 var menu = document.querySelector('nav ul');
 
 btn.addEventListener('click', function () {
-
     if (menu.style.display == '') {
         menu.style.display = "block";
         menu.style.transition = "2s";
@@ -14,8 +13,9 @@ btn.addEventListener('click', function () {
         menu.style.transition = "2s";
         console.log('arf');
     }
-
 });
+
+
 
 // sticky nav
 var nav = document.querySelector('header');
